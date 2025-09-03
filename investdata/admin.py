@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import Stocks
 
-# Register your models here.
+@admin.register(Stocks)
+class StockAdmin(admin.ModelAdmin):
+    list_display = ('name', 'price', 'created_at',)
+    search_fields = ('name',)
+    list_filter = ('name',)
