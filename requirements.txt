@@ -11,8 +11,11 @@ click==8.2.1
 click-didyoumean==0.3.1
 click-plugins==1.1.1.2
 click-repl==0.3.0
+cron_descriptor==2.0.6
 curl_cffi==0.13.0
 Django==5.2.6
+django-celery-beat==2.8.1
+django-timezone-field==7.1
 django_celery_results==2.6.0
 frozendict==2.4.6
 h11==0.16.0
@@ -27,8 +30,10 @@ peewee==3.18.2
 platformdirs==4.4.0
 prompt_toolkit==3.0.52
 protobuf==6.32.0
+psycopg2-binary==2.9.10
 pycparser==2.22
 PySocks==1.7.1
+python-crontab==3.3.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 pytz==2025.2
